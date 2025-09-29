@@ -1,7 +1,9 @@
 # Fine-Tune-VLM-for-Markdown-Conversion
 
-![Example 01](output/01/input.jpg)  
-![Example 02](output/02/input.jpg)
+<p align="center">
+  <img src="output/01/input.jpg" alt="Example 01" width="300"/>
+  <img src="output/02/input.jpg" alt="Example 02" width="300"/>
+</p>
 
 This repository fine-tunes a 3B Vision-Language Model (VLM) for the task of converting financial tables from images into clean Markdown format.  
 
