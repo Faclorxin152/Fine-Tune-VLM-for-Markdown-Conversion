@@ -9,7 +9,7 @@ This repository fine-tunes a 3B Vision-Language Model (VLM) for the task of conv
 
 By referring to the paper **"Fine-Tuning Vision-Language Models for Markdown Conversion of Financial Tables in Malaysian Audited Financial Reports"**, we have applied the same method and datasets from [jinkhye/MyFinMarkdown-sample](https://huggingface.co/datasets/jinkhye/MyFinMarkdown-sample).  
 
-The model being fine-tuned is **Qwen/Qwen2.5-VL-3B-Instruct**, trained only on 10 samples of data. We use **LoRA adapter** and **4-bit quantization**, with minimal additional parameters to make training feasible on limited resources (in this case, a GTX 1060 6GB).  
+The model being fine-tuned is **Qwen/Qwen2.5-VL-3B-Instruct**, trained only on 10 samples of data. (8:1:1) We use **LoRA adapter** and **4-bit quantization**, with minimal additional parameters to make training feasible on limited resources (in this case, a GTX 1060 6GB).  
 
 ---
 
